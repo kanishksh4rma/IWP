@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pizza Shop 2.0</title>
+</head>
+<body>
+  <h1>Pizza Shop 2.0</h1>
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br><br>
+    
+    <label for="topping">Pizza Topping:</label><br>
+    <input type="radio" id="supreme" name="topping" value="Supreme" required>
+    <label for="supreme">Supreme</label><br>
+    <input type="radio" id="vegetarian" name="topping" value="Vegetarian" required>
+    <label for="vegetarian">Vegetarian</label><br>
+    <input type="radio" id="hawaiian" name="topping" value="Hawaiian" required>
+    <label for="hawaiian">Hawaiian</label><br><br>
+    
+    <label for="sauce">Pizza Sauce:</label><br>
+    <select id="sauce" name="sauce" required>
+      <option value="Tomato">Tomato</option>
+      <option value="Barbecue">Barbecue</option>
+      <option value="Pesto">Pesto</option>
+      <option value="Alfredo">Alfredo</option>
+    </select><br><br>
+    
+    <label for="extras">Optional Extras:</label><br>
+    <input type="checkbox" id="cheese" name="extras" value="Extra Cheese">
+    <label for="cheese">Extra Cheese</label><br>
+    <input type="checkbox" id="gluten-free" name="extras" value="Gluten Free Base">
+    <label for="gluten-free">Gluten Free Base</label><br><br>
+    
+    <label for="delivery-instructions">Delivery Instructions:</label><br>
+    <textarea id="delivery-instructions" name="delivery-instructions" rows="4" cols="50"></textarea><br><br>
+    
+    <input type="submit" value="Send my order">
+  </form>
+</body>
+</html>

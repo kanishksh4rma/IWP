@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>22MCA0131</title>
+    <style>
+        th,
+        td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+
+        .long-cell {
+            background-color: lightgray;
+            word-break: break-word;
+        }
+
+        /* .image-container {
+            display: inline-block;
+            margin-bottom: 20px;
+        } */
+
+        .image-container img {
+            max-width: 100px;
+            max-height: 100px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+        <tr>
+            <th colspan="4">Purchased Equipments(June,2006)</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Item Num#</td>
+            <td rowspan="2">Item Picture</td>
+            <td>Item Description</td>
+            <td>Price</td>
+        </tr>
+        <tr>
+            <td>Shipping Handling, Installation,etc</td>
+            <td> Expense</td>
+        </tr>
+        <tr>
+            <td rowspan="2">1</td>
+            <td rowspan="2" class="image-container"> <img src="1.jpg" alt=""></td>
+            <td>IBM Clone Computer</td>
+            <td>$ 400.00</td>
+        </tr>
+        <tr>
+            <td>Shipping Handling, Installation,etc</td>
+            <td>$ 20.00</td>
+        </tr>
+
+        <tr>
+            <td rowspan="2">2</td>
+            <td rowspan="2" class="image-container"><img src="2.jpg" alt=""></td>
+            <td>1GB RAM Module for Computer</td>
+            <td>$ 50.00</td>
+        </tr>
+        <tr>
+            <td>Shipping Handling, Installation,etc</td>
+            <td>$ 12.00</td>
+        </tr>
+
+
+        <tr>
+            <th colspan="4">Purchased Equipments(June,2006)</th>
+        </tr>
+    </table>
+
+    <br><br>
+
+    <table>
+        <tr>
+            <th colspan="4">Table Heading Cell Spanning 4 Columns</th>
+        </tr>
+        <tr>
+            <td>Normal Cell</td>
+            <td colspan="2">Cell spanning 2 columns</td>
+            <td>Normal Cell</td>
+        </tr>
+
+        <tr>
+            <td rowspan="3" class="long-cell">Cell spanning 3 <br> rows with a gray <br> (US spelling) <br>background
+            </td>
+            <td>Normal cell</td>
+            <td>Normal cell</td>
+            <td>Normal cell</td>
+        </tr>
+
+        <tr>
+            <td>Normal cell</td>
+            <td rowspan="2" colspan="2">Cell spanning 2 rows and 2 columns</td>
+        </tr>
+
+        <tr>
+            <td>Normal cell</td>
+        </tr>
+    </table>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+<html>
+
+<head>
+    <style>
+        body{
+            background-image: url('../image1.jpg');
+            color:red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        ul{
+            line-height: 30px;
+            list-style: none;
+        }
+        ul li::before{
+            content: '\2022';
+            list-style: disc;
+            color: blue;
+            margin-right: 10px;
+            text-decoration: none;
+
+        }
+        ul span{
+            text-transform: uppercase;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="f2_main">
+        <ul>
+            <li><span>user login</span></li>
+            <li><span>user profile</span></li>
+            <li><span>books catalog</span></li>
+            <li><span>shopping cart</span></li>
+            <li><span>order confermation</span></li>
+            <li><span>cart</span></li>
+        </ul>
+    </div>
+</body>
+
+</html>

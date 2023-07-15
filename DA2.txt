@@ -1,0 +1,25 @@
+Create following employee registration webpage using HTML Form, Here's the description:
+
+create radio button in one line- Mr. Mrs. Ms.
+First Name [text box]
+Last Name [text box]
+Mail Add[text box]
+Mail Add2 [text box]
+City [text box]
+State [drop-menu with random indian state names]
+Zip [text box]
+upload photo [upload photo button]
+email [text box]
+mobile no [mobile no. box]
+known language [check boxes with different languages names]
+[text box labbelled "optional"]
+[submit button][reset button]
+
+
+22222222222222
+
+
+create following tabular html:
+HTML tag | output
+
+use table to form this. put random tages and otput in table

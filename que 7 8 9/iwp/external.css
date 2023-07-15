@@ -1,0 +1,42 @@
+body{
+    background-image: url("tree.png");
+    background-color: gray;
+    background-position: 10px 50px;
+    background-repeat: no-repeat;
+    background-size: 400px 600px;
+}
+
+.sqr_box{
+    width: 800px;
+    background-color: aliceblue;
+    height: 200px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 40px;
+    padding-top: 30px;
+}
+
+.wh_head{
+    font-size: 40pt;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.main_para{
+    margin: 20px;
+}
+
+.sec_box{
+    width: 800px;
+    border: 2px solid;
+    border-top: dotted black;
+    border-bottom: dashed black;
+    margin-top: 25px;
+}
+
+.main_boz{
+    display: grid;
+    grid-template-rows: 1 1;
+    float: right;
+}
