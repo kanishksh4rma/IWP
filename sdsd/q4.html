@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>22MCA0137</title>
+    <style>
+      .top {
+        display: flex;
+        text-align: center;
+        margin-left: 30%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="top">
+      <img src="logo.png" alt="image">
+      <h1 style="color:red">Employee Registration Form</h1>
+    </div>
+    <form>
+      <table align="center">
+      	<tr>
+      		<td></td>
+      		<td>
+      			<input type="radio" name="salu" checked>Mr. <input type="radio" name="salu">Mrs. <input type="radio" name="salu">Ms.
+      		</td>
+      	</tr>
+      	<tr>
+      		<td><label for="fname">First Name</label></td>
+      		<td><input type="text" placeholder="First Name"></td>
+      	</tr>
+      	<tr>
+      		<td><label for="lname">Last Name</label></td>
+      		<td><input type="text" placeholder="Last Name"></td>
+      	</tr>
+      	<tr>
+      		<td><label for="add2">Mail Address 1</label></td>
+      		<td><input type="text"></td>
+      	</tr>
+      	<tr>
+      		<td><label for="add2">Mail Address 2</label></td>
+      		<td><input type="text"></td>
+      	</tr>
+      	<tr>
+      		<td><label for="add2">City</label></td>
+      		<td><input type="text"></td>
+      	</tr>
+      	<tr>
+      		<td><label for="add2">State</label></td>
+      		<td>
+      			<select name="state" id="state">
+			        <option value="uk">Uttarakhand</option>
+			        <option value="tn">Tamil Nadu</option>
+			        <option value="gj">Gujrat</option>
+			    </select>
+      		</td>
+      	</tr>
+      	<tr>
+      		<td><label for="zip">Zip</label></td>
+      		<td><input type="text"></td>
+      	</tr>
+      	<tr>
+      		<td><label for="photo">Upload Photo</label></td>
+      		<td><input type="file" id="picture"></td>
+      	</tr>
+      	<tr>
+      		<td><label for="mail">E-Mail</label></td>
+      		<td colspan="2"><input type="text" style="width: 210px;"></td>
+      	</tr>
+      	<tr>
+      		<td><label for="mb">Mobile</label></td>
+      		<td><input type="number" min="10" max="10"></td>
+      	</tr>
+      	<tr>
+      		<td><label for="lang">Languages known</label></td>
+      		<td>
+      			<label for="lang">Hindi</label>
+			    <input type="checkbox">
+			    <br>
+			    <label for="lang">English</label>
+			    <input type="checkbox">
+			    <br>
+			    <label for="lang">Kumaoni</label>
+			    <input type="checkbox">
+      		</td>
+      	</tr>
+      	<tr>
+      		<td><label for="info">Additional Information</label></td>
+      		<td><textarea name="info" id="" cols="25" rows="3" placeholder="Optional"></textarea></td>
+      	</tr>
+      	<tr>
+      		<td colspan="3"><center><button>Submit</button><button>Reset</button></center></td>
+      	</tr>
+      </table>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Introduction to HTML</title>
+</head>
+<body>
+  <h1>a) Print Name</h1>
+  <p>Your Name</p>
+
+  <h1>b) Print Numbers 1 - 10</h1>
+  <p>
+    1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+  </p>
+
+  <h1>c) Webpage Title</h1>
+  <script>
+    document.title = "This is a webpage";
+  </script>
+
+  <h1>d) Print Creation Date</h1>
+  <p>
+    When was this webpage created? Check page's title for the answer.
+  </p>
+  <script>
+    var currentDate = new Date().toLocaleDateString();
+    document.title = currentDate;
+  </script>
+
+  <h1>e) Print Custom Text</h1>
+  <p>
+    Custom text of your choice.
+  </p>
+
+  <h1>f) Browser Information</h1>
+  <p>
+    Refreshes in 5 seconds and expires after a duration of time.
+  </p>
+  <script>
+    setTimeout(function() {
+      location.reload();
+    }, 5000);
+  </script>
+</body>
+</html>
+
+<!-- =============================== -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HTML Text Exercises</title>
+  <style>
+    /* CSS for exercises */
+    .green-text {
+      color: green;
+    }
+
+    .number-text-1 {
+      color: red;
+    }
+
+    .number-text-2 {
+      color: blue;
+    }
+
+    .number-text-3 {
+      color: yellow;
+    }
+
+    .number-text-4 {
+      color: orange;
+    }
+
+    .number-text-5 {
+      color: purple;
+    }
+
+    .number-text-6 {
+      color: brown;
+    }
+
+    .number-text-7 {
+      color: magenta;
+    }
+
+    .number-text-8 {
+      color: teal;
+    }
+
+    .number-text-9 {
+      color: pink;
+    }
+
+    .number-text-10 {
+      color: navy;
+    }
+
+    .tahoma-font {
+      font-family: Tahoma, sans-serif;
+    }
+
+    .bold-underline {
+      font-weight: bold;
+      text-decoration: underline;
+    }
+
+    .font1 {
+      font-family: Arial, sans-serif;
+    }
+
+    .font2 {
+      font-family: Times New Roman, serif;
+    }
+
+    .font3 {
+      font-family: Verdana, sans-serif;
+    }
+
+    .font4 {
+      font-family: Courier New, monospace;
+    }
+
+    .book-title {
+      text-decoration: underline;
+    }
+
+    .book-author {
+      text-decoration: underline;
+    }
+
+    .adjective {
+      font-style: italic;
+      font-weight: bold;
+    }
+
+    h1 {
+      font-size: 1em;
+    }
+
+    h2 {
+      font-size: 1.5em;
+    }
+
+    h3 {
+      font-size: 2em;
+    }
+
+    h4 {
+      font-size: 2.5em;
+    }
+
+    h5 {
+      font-size: 3em;
+    }
+
+    h6 {
+      font-size: 3.5em;
+    }
+
+    .comment {
+      visibility: hidden;
+    }
+
+    .background-yellow {
+      background-color: yellow;
+    }
+
+    .marquee {
+      white-space: nowrap;
+      overflow: hidden;
+      animation: marquee 5s infinite;
+    }
+
+    @keyframes marquee {
+      0% { transform: translateX(100%); }
+      100% { transform: translateX(-100%); }
+    }
+
+    .single-line {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  </style>
+</head>
+<body class="background-yellow">
+  <!-- a) Print your name in green -->
+  <h1 class="green-text">Your Name</h1>
+
+  <!-- b) Print the numbers 1 - 10, each number being a different color -->
+  <p>
+    <span class="number-text-1">1</span>,
+    <span class="number-text-2">2</span>,
+    <span class="number-text-3">3</span>,
+    <span class="number-text-4">4</span>,
+    <span class="number-text-5">5</span>,
+    <span class="number-text-6">6</span>,
+    <span class="number-text-7">7</span>,
+    <span class="number-text-8">8</span>,
+    <span class="number-text-9">9</span>,
+    <span class="number-text-10">10</span>
+  </p>
+
+  <!-- c) Prints your name in a Tahoma font -->
+  <p class="tahoma-font">Your Name</p>
+
+  <!-- d) Display a part of a word with bold underline -->
+  <p>This is a <span class="bold-underline">bold underline</span> example.</p>
+
+  <!-- e) Print a paragraph with 4 - 5 sentences. Each sentence should be a different font -->
+  <p>
+    <span class="font1">Sentence 1.</span>
+    <span class="font2">Sentence 2.</span>
+    <span class="font3">Sentence 3.</span>
+    <span class="font4">Sentence 4.</span>
+  </p>
+
+  <!-- f) Print a paragraph that is a description of a book; include the title of the book as well as its author -->
+  <p>
+    <span class="book-title">Title of the Book</span> by <span class="book-author">Author Name</span>. This book is <span class="adjective">amazing</span> and <span class="adjective">captivating</span>.
+  </p>
+
+  <!-- g) Print your name to the screen with every letter being a different heading size -->
+  <h1>Your</h1>
+  <h2>Name</h2>
+  <h3>Here</h3>
+  <h4>Is</h4>
+  <h5>Your</h5>
+  <h6>Name</h6>
+
+  <!-- h) Write a comment line on your code and make sure it is not displayed on the page -->
+  <p class="comment">This is a comment that is not displayed on the page.</p>
+
+  <!-- i) Print a^2 + b^2 = 2ab -->
+  <p>a<sup>2</sup> + b<sup>2</sup> = 2ab</p>
+
+  <!-- j) Print H<sub>2</sub>O -->
+  <p>H<sub>2</sub>O</p>
+
+  <!-- k) Display a C code as it is on the page -->
+  <pre>
+    <code>
+      #include &lt;stdio.h&gt;
+
+      int main() {
+        printf("Hello, World!");
+        return 0;
+      }
+    </code>
+  </pre>
+
+  <!-- l) Set the background color of the page as yellow (already applied using CSS) -->
+
+  <!-- m) Set an image as the background of the page -->
+  <!-- Replace "image-url.jpg" with the actual URL of your desired image -->
+  <style>
+    body {
+      background-image: url("image-url.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  </style>
+
+  <!-- n) Set the font size as 10. Print it. Again try to decrease the font size. Check whether the font size is reduced -->
+  <p style="font-size: 10px;">Font size is 10px.</p>
+  <p style="font-size: 8px;">Font size is reduced to 8px.</p>
+
+  <!-- o) Apply marquee for your name -->
+  <h1 class="marquee">Your Name</h1>
+
+  <!-- p) Display a paragraph contents in a single line -->
+  <p class="single-line">This is a paragraph that will be displayed in a single line if it exceeds the width of the container.</p>
+</body>
+</html>
